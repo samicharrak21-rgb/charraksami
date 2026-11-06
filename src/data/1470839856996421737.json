@@ -1,0 +1,262 @@
+{
+  "prefix": "/",
+  "xp": {
+    "enabled": true,
+    "min": 5,
+    "max": 15,
+    "cooldown": 5000
+  },
+  "welcome": {
+    "enabled": true,
+    "channel": "1470839860594999593",
+    "message": "**أهلًا وسهلًا {user} في {server}!**\n\n✨ نتمنى لك وقتاً ممتعاً معنا\n📌 اطلع على القوانين واختر رتبتك\n🔗 ادعُ أصدقاءك: {invite}"
+  },
+  "settings": {
+    "welcome": true,
+    "announce": true,
+    "xp": true,
+    "levelroles": true,
+    "embedbuilder": true,
+    "rules": true,
+    "autorole": true,
+    "removePreviousLevelRole": true
+  },
+  "templates": {},
+  "users": {
+    "1057696883679690832": {
+      "balance": 994517,
+      "xp": 43,
+      "level": 1,
+      "stats": {
+        "messages_count": 327,
+        "work_count": 6,
+        "daily_count": 3,
+        "slots_count": 10,
+        "dungeon_count": 3,
+        "farm_plant_count": 5,
+        "farm_harvest_count": 5
+      },
+      "inventory": {
+        "weapons": [],
+        "armor": [],
+        "potions": [],
+        "skills": [
+          "fireball",
+          "shield_wall",
+          "divine_heal",
+          "lava_burst"
+        ]
+      },
+      "equipment": {
+        "weapons": {
+          "id": "dragon_slayer",
+          "name": "قاتل التنانين",
+          "price": 10000,
+          "atk": 200,
+          "emoji": "🗡️"
+        }
+      },
+      "race": "human",
+      "class": "warrior",
+      "stage": 2,
+      "afk": null,
+      "farm": {
+        "inventory": {
+          "carrots": 0,
+          "grapes": 0
+        },
+        "last_plant": 0
+      },
+      "last_daily": 1772131803070,
+      "last_work": 1772134902913,
+      "upgrades": {
+        "hp": 2,
+        "atk": 4
+      },
+      "prestige": 1
+    },
+    "1268308144409415701": {
+      "balance": 1000,
+      "xp": 101,
+      "level": 2,
+      "stats": {
+        "messages_count": 10
+      },
+      "inventory": {
+        "weapons": [],
+        "armor": [],
+        "potions": [],
+        "skills": []
+      },
+      "equipment": {}
+    },
+    "1051892412152295426": {
+      "balance": 1100,
+      "xp": 504,
+      "level": 5,
+      "stats": {
+        "messages_count": 46
+      },
+      "inventory": {
+        "weapons": [],
+        "armor": [],
+        "potions": [],
+        "skills": []
+      },
+      "equipment": {}
+    },
+    "1093749218419671080": {
+      "balance": 1000,
+      "xp": 48,
+      "level": 1,
+      "stats": {
+        "messages_count": 6
+      },
+      "inventory": {
+        "weapons": [],
+        "armor": [],
+        "potions": [],
+        "skills": []
+      },
+      "equipment": {}
+    },
+    "790880602172686349": {
+      "balance": 1000,
+      "xp": 31,
+      "level": 1,
+      "stats": {
+        "messages_count": 4
+      },
+      "inventory": {
+        "weapons": [],
+        "armor": [],
+        "potions": [],
+        "skills": []
+      },
+      "equipment": {}
+    },
+    "1290915770897006596": {
+      "balance": 1814356,
+      "xp": 1605,
+      "level": 7,
+      "stats": {
+        "messages_count": 73,
+        "blackjack_count": 1
+      },
+      "inventory": {
+        "weapons": [],
+        "armor": [],
+        "potions": [],
+        "skills": []
+      },
+      "equipment": {
+        "weapons": {
+          "id": "celestial_spear",
+          "name": "رمح سماوي",
+          "price": 40000,
+          "atk": 520,
+          "emoji": "🌟"
+        },
+        "armor": {
+          "id": "phoenix_guard",
+          "name": "حارس العنقاء",
+          "price": 45000,
+          "hp": 8000,
+          "emoji": "🔥"
+        }
+      },
+      "race": "demon",
+      "class": "assassin",
+      "stage": 1,
+      "farm": {
+        "inventory": {
+          "grapes": 0,
+          "potatoes": 0
+        },
+        "last_plant": 0
+      }
+    },
+    "1126268521354104953": {
+      "balance": 1000,
+      "xp": 12,
+      "level": 1,
+      "stats": {
+        "messages_count": 1
+      },
+      "inventory": {
+        "weapons": [],
+        "armor": [],
+        "potions": [],
+        "skills": []
+      },
+      "equipment": {}
+    },
+    "1298313426069618758": {
+      "balance": 1000,
+      "xp": 18,
+      "level": 1,
+      "stats": {
+        "messages_count": 2
+      },
+      "inventory": {
+        "weapons": [],
+        "armor": [],
+        "potions": [],
+        "skills": []
+      },
+      "equipment": {}
+    }
+  },
+  "roles": {
+    "ticketMentionRole": "1470839858154049608"
+  },
+  "channels": {
+    "welcome": "1470839860594999593",
+    "announce": "1470839860594999593",
+    "levels": "1470839858988712096",
+    "rules": "1470839860594999593",
+    "logs": "1470839860594999593",
+    "xpAllowed": [],
+    "xpBlocked": [],
+    "adhkar": "1471301665134088233",
+    "tickets": "1470839858988712093"
+  },
+  "lang": "ar",
+  "joinTimestamps": {
+    "1057696883679690832": 1771885847581,
+    "790880602172686349": 1772129866772
+  },
+  "levelRoles": {
+    "5": [
+      "1472266359307243670"
+    ],
+    "10": [
+      "1470839857893998678"
+    ],
+    "20": [
+      "1470839857965436936"
+    ],
+    "50": [
+      "1472270474926096436"
+    ],
+    "100": [
+      "1470839858128879801"
+    ]
+  },
+  "afkUsers": {
+    "1057696883679690832": {
+      "reason": "بعيد عن الشاشة",
+      "originalNick": "samicharrak",
+      "timestamp": 1772155462709
+    }
+  },
+  "rulesAccepted": [],
+  "levels": {
+    "messageTemplate": "<a:Pik:1471284527086436483> {mentione}<a:8wii:1475621116767899740> \nلقد اخترقت الظلام بصعودك للمستوى {level} ⚡\nقاعدة Panthom Base تفخر بصعودك للنخبة! <a:emojidiscord:1471285175928492247>"
+  },
+  "autoRole": {
+    "enabled": true,
+    "roleId": null
+  },
+  "timedRoles": []
+}
