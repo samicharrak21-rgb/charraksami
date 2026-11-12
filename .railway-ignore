@@ -1,0 +1,9 @@
+node_modules/
+.env
+.git/
+README.md
+test-bot.js
+deploy-commands.js
+*.log
+.DS_Store
+Thumbs.db

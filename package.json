@@ -1,0 +1,49 @@
+{
+  "name": "sami-bot",
+  "version": "25.0.0",
+  "description": "بوت ديسكورد شامل - إشراف كامل (حظر/طرد/تحذيرات/سجل عقوبات)، اقتصاد مع سرقة، تصويت، حاسبة، ترجمة، +1000 اختصار وعبارة عربية، 6 ألعاب جديدة (صاروخ، كشط، كنز، أعلى/أقل، سباق الهجن، خمن الرقم)، أسئلة السهرة، صور لكل لعبة، بطاقات مصممة",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js",
+    "deploy:clear": "node src/deploy-commands.js --clear",
+    "railway:start": "node src/index.js",
+    "dev": "node src/index.js",
+    "health": "node scripts/bot-health-check.js",
+    "postinstall": "node scripts/postinstall.js || true",
+    "test": "node scripts/test-level-rewards.js && node scripts/test-v21.js && node scripts/test-v22.js && node scripts/test-v23.js && node scripts/test-v24.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "economy",
+    "games",
+    "arabic",
+    "railway",
+    "production"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@napi-rs/canvas": "^1.0.0",
+    "arabic-reshaper": "^1.1.0",
+    "bidi-js": "^1.0.3",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.0",
+    "express": "^4.19.2",
+    "gifenc": "^1.0.3",
+    "pino": "^9.0.0"
+  },
+  "optionalDependencies": {
+    "better-sqlite3": "^9.6.0",
+    "mongodb": "^6.22.0",
+    "mongoose": "^8.24.8"
+  },
+  "type": "commonjs",
+  "devDependencies": {
+    "pino-pretty": "^13.1.3"
+  }
+}

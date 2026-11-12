@@ -1,0 +1,6 @@
+const { mongoose } = require('../db/mongo');
+const schema = new mongoose.Schema({
+  userId: { type: String, index: true, unique: true },
+  data: { type: Object, default: {} }
+}, { timestamps: true });
+module.exports = mongoose.model('User', schema);
