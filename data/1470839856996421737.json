@@ -1,0 +1,48 @@
+{
+  "prefix": "/",
+  "users": {
+    "1057696883679690832": {
+      "xp": 69,
+      "level": 1,
+      "balance": 1000,
+      "xp_streak": 1,
+      "xp_day": 20769,
+      "stats": {
+        "messages_count": 1
+      },
+      "achievements": []
+    }
+  },
+  "xpData": {},
+  "xp": {
+    "enabled": true,
+    "min": 15,
+    "max": 25,
+    "cooldown": 60000
+  },
+  "welcome": {
+    "enabled": false,
+    "channel": null,
+    "message": "**أهلًا وسهلًا {user} في {server}!**\n\n✨ نتمنى لك وقتاً ممتعاً معنا\n📌 اطلع على القوانين واختر رتبتك\n🔗 ادعُ أصدقاءك: {invite}"
+  },
+  "settings": {},
+  "templates": {},
+  "roles": {},
+  "channels": {},
+  "lang": "en",
+  "chatbot": {
+    "enabled": true,
+    "channels": [],
+    "mention": true,
+    "nameTrigger": true,
+    "name": "سامي",
+    "persona": "مرح، ودود، خفيف الدم، يحب المزاح ويحترم الجميع",
+    "reactChance": 0.08,
+    "allowActions": true,
+    "powers": true,
+    "maxReward": 500,
+    "maxFine": 500,
+    "maxMute": 10,
+    "dailyBudget": 5000
+  }
+}
